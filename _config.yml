@@ -19,7 +19,7 @@ I am (solemn face :<), mark it as todo item makes me feel comfortable ....LOL"
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: "http://carmen0208.github.io" # the base hostname & protocol for your site
 google_analytics: 'UA-501066-1'
-disqus_shortname: 'carmen0208-github-io.disqus.com'
+disqus_shortname: 'carmen0208-github-io'
 author:
   name: 'Carmen Liu'
   email: dearsorry442@gmail.com
