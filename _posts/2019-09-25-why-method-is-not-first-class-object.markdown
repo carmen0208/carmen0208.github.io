@@ -5,7 +5,7 @@ date:   2016-09-25 14:26:03 +0800
 tags: ruby programming
 ---
 
-## What is first-calss object?
+## What is first-class object?
 
 Objects can not be passing through methods directly when created 
 
@@ -136,8 +136,12 @@ d = Manufactory.new.draw
 ```
 
 Diff between those two examples, it can be easily find out that, there's only
-one defferent bewteen. **Method has been passed from First Example, the second one pass the whole
- instance.** And from the output, the simple idea could be generated:
+one defferent bewteen.
+
+* **Example1**: Method has been passed and called it later
+* **Example2**: Whole object instance has been passed and call the method later.
+
+And from the output, the simple idea could be generated:
 
 * **Example1**: When our code saved a direct reference to a method and then called it later, 
 it missed out on any changes to that method which occurred between when the reference 
