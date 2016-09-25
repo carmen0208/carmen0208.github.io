@@ -47,7 +47,7 @@ end
 
 module AdsPlugin
   def draw(*)
-    puts "copyright: Ninja Company!"
+    puts "copyright: Ninja Ninja!"
     super
   end
 
@@ -131,7 +131,7 @@ end
 
 d = Manufactory.new.draw
 
-#=>copyright: Ninja Company!
+#=>copyright: Ninja Ninja!
 #=>I love my Bag!
 ```
 
