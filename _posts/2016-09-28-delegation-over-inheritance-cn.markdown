@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "组合由于继承"
-date:   2016-9-28 19:26:03 +0800
+title:  "组合优于继承"
+date:   2016-9-28 19:56:03 +0800
 categories: programming
 tags: ruby programming Chinese
 ---
