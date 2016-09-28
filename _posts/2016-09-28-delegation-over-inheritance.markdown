@@ -1,2 +1,9 @@
-just for test, but I would update it to be a artcle later for sure
-what's wrong with it?????
+---
+layout: post
+title:  "Delegation over Inheritance"
+date:   2016-9-28 19:26:03 +0800
+categories: programming
+tags: ruby programming en
+---
+
+That's it. I would update it with both English and Chinese version tomorrow
