@@ -16,7 +16,7 @@
 title: My life that code tells
 description: "> # //TODO: If I didn't think through, I can't find a good introduction to describe how awesome
 I am (solemn face :<), mark it as todo item makes me feel comfortable ....LOL"
-baseurl: '/' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: "http://carmen0208.github.io" # the base hostname & protocol for your site
 disqus_shortname: 'carmen0208-github-io'
 author:
@@ -30,7 +30,7 @@ author:
 defaults:
   -
     scope:
-      path: ''
+      path: '/'
       type: 'posts'
     values:
         layout: 'post'
@@ -51,3 +51,7 @@ kramdown:
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "cn"]
+exclude_from_localizations: ["fonts", "images", "js", "src"]
