@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Methods are not first-class object in Ruby"
+title:  "Methods are not first-class object in Ruby"
 date:   2016-09-25 14:26:03 +0800
 tags: ruby programming
 ---
