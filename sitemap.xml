@@ -1,56 +1,131 @@
----
-layout: null
-sitemap:
-  exclude: 'yes'
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    {% unless post.published == false %}
+  
+    
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% else %}
+      <loc>http://carmen0208.github.io/2016/delegation-over-inheritance/</loc>
+      
+        <lastmod>2016-09-28T00:00:00+08:00</lastmod>
+      
+      
         <changefreq>monthly</changefreq>
-      {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% else %}
+      
+      
         <priority>0.5</priority>
-      {% endif %}
+      
     </url>
-    {% endunless %}
-  {% endfor %}
-  {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" %}
+    
+  
+    
     <url>
-      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-      {% if page.sitemap.lastmod %}
-        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif page.date %}
-        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if page.sitemap.changefreq %}
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-      {% else %}
+      <loc>http://carmen0208.github.io/2016/why-method-is-not-first-class-object/</loc>
+      
+        <lastmod>2016-09-25T14:26:03+08:00</lastmod>
+      
+      
         <changefreq>monthly</changefreq>
-      {% endif %}
-      {% if page.sitemap.priority %}
-        <priority>{{ page.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.3</priority>
-      {% endif %}
+      
+      
+        <priority>0.5</priority>
+      
     </url>
-    {% endunless %}
-  {% endfor %}
+    
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/2016/two-day-in-rubyconf-china/</loc>
+      
+        <lastmod>2016-09-24T19:26:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/2016/welcome-to-jekyll/</loc>
+      
+        <lastmod>2016-09-11T14:26:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/about/</loc>
+      
+        <lastmod>2016-09-28T23:16:59+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/categories/</loc>
+      
+        <lastmod>2016-09-28T23:16:59+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/</loc>
+      
+        <lastmod>2016-09-28T23:16:59+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://carmen0208.github.io/tags/</loc>
+      
+        <lastmod>2016-09-28T23:16:59+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
 </urlset>
