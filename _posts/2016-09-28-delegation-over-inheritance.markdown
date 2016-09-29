@@ -89,9 +89,13 @@ It's common in our life that you can inheritance almost everything from your anc
 your specific identity away as well if you rely them much, it's better to find someone help 
 out side rather than directly require everything from parents
 
-#### By the way, if you insist to inheritance, please do remember you might
-encounter some unexpect and counter-intuitive implement. And here's a solution
-for the problem below:
+#### By the way, if you insist to inheritance, how could you do?
+
+my suggestion is please do remember you might encounter some unexpect and counter-intuitive implement and you can alway fix it
+by providing implementation of your own.
+
+And here's a solution for the problem below:
+
 ```ruby
 
 class CustomList <Array
