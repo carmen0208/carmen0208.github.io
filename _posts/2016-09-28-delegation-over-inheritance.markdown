@@ -6,12 +6,12 @@ categories: English
 tags: ruby programming English
 
 ---
-#### Let's think about this:
+## Let's think about this:
 
 If you want a data structure that almost the same as ruby Array but different in
 some part. You might make an subclass of Array like the example below:
 
-###### Inheritance(Subclass)
+#### Inheritance(Subclass)
 
 ```ruby
 class CustomList <Array
@@ -43,7 +43,7 @@ p cl3.class #=> Array
 
 it changed back to **Array** instead of **CustomList**.......and that's counter intuition
 
-##So Here's an other way-- Delegation:
+## So Here's an other way-- Delegation:
 
 ```ruby
 class CustomList
@@ -79,10 +79,31 @@ tl3.group_by(&:size)
 ```
 
 So here's an idea: when considerring implement sometime like the component that already have, 
-it's better to use delegation rather that inheritance.
+it's better to use delegation rather that inheritance.(not to mention we can not
+inhertance from one class most of the time, but we can delegate all kinds of
+classes with us, that's the power of delegation)
 
-##What's the code told?
+## What's the code told?
 
-It's common in our life that you can inheritance almost everything from your parents, but it would take
+It's common in our life that you can inheritance almost everything from your ancestor without any effort, but it would take
 your specific identity away as well if you rely them much, it's better to find someone help 
 out side rather than directly require everything from parents
+
+#### By the way, if you insist to inheritance, please do remember you might
+encounter some unexpect and counter-intuitive implement. And here's a solution
+for the problem below:
+```ruby
+
+class CustomList <Array
+  def to_s
+    join(" | ")
+  end
+
+  def +(other)
+    mid = super(other)
+    self.class.new(mid)
+  end
+end
+
+```
+
