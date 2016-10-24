@@ -675,7 +675,7 @@ overflow:hidden;
 margin:10px 1%;
 max-width:100%;
 max-height:100%;
-width:48%;
+width:98%;
 background:#3085a3;
 text-align:center;
 cursor:pointer
@@ -760,6 +760,7 @@ transition:opacity 0.35s,transform .35s
 }
 
 figure.cross-image p {
+text-align:left;
 position:absolute;
 bottom:0;
 left:0;
