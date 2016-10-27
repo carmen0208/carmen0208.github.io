@@ -73,6 +73,10 @@ height:auto
 margin-bottom:40px
 }
 
+.contact-detail dd{margin: 0 0 6px 30px;padding:0;padding-top:5px;}
+.contact-detail dt{float:left;}
+.contact-detail dt img{vertical-align:text-top;width:20px;height:20px;}
+
 .cross-portfolio:not(.notrans) .content > div {
 -webkit-transition-property:-webkit-transform,opacity;
 transition-property:transform,opacity
