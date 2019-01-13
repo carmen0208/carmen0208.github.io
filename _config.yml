@@ -13,15 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: My life that code(but not just) tells
-description: "> # //TODO: If I didn't think through, I can't find a good introduction to describe how awesome
-I am (solemn face :<), mark it as todo item makes me feel comfortable ....LOL"
+title: Waffle
+description: "> My thought, My learned, My code, My Life"
 baseurl: '' # the subpath of your site, e.g. /blog
 url: "http://carmen0208.github.io" # the base hostname & protocol for your site
 disqus_shortname: 'carmen0208-github-io'
 author:
   name: 'Carmen Liu'
-  email: dearsorry442@gmail.com
+  email: carmen.liujia@gmail.com
   facebook_username: carmen.liu.7355
   linkedin_username:  carmen-liu-ninja
   twitter_username: carmen0208
