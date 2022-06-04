@@ -7,7 +7,7 @@ margin:0
 
 body {
 background:#fff;
-color:#69606b;
+/* color:#69606b; */
 font-weight:400;
 font-size:16px;
 line-height:1.5;
@@ -50,6 +50,13 @@ left:0;
 padding:0 25px
 }
 
+div#profile-image {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  padding-top:20px;
+}
+
 .logo {
 text-align:left;
 font-weight:700;
@@ -65,7 +72,7 @@ position:relative
 
 .avatar {
 text-align:center;
-width:100%;
+width:60%;
 height:auto
 }
 
@@ -95,7 +102,7 @@ font-size:4em
 .cross-portfolio .content {
 width:100%;
 margin-left:0;
-padding:2em 1em;
+padding: 1em;
 position:relative
 }
 
@@ -268,6 +275,10 @@ color:#444
 .icon-list-content {
 display:inline-block;
 vertical-align:middle
+}
+
+.icon-space {
+  padding-top: 10px;
 }
 
 .icon-list-title {
@@ -499,95 +510,6 @@ transform:scale(1);
 -webkit-transform:translate3d(0,-300px,0);
 transform:translate3d(0,-300px,0);
 opacity:1
-}
-
-@media screen and (max-width: 80em) {
-figure {
-display:inline-block;
-float:none;
-margin:10px auto;
-width:100%
-}
-}
-
-@media screen and (max-width: 50em) {
-.title,.cross-portfolio {
-font-size:90%
-}
-
-.cross-portfolio .content {
-width:95%;
-margin-left:5%;
-padding:2em 1em 2em 0
-}
-
-.cross-portfolio.modify .cross-top .logo {
-opacity:0
-}
-
-.cross-portfolio .bg-img::after {
-width:95%
-}
-
-figure {
-display:inline-block;
-float:none;
-margin:10px auto;
-width:100%
-}
-}
-
-@media screen and (max-width: 27em) {
-.cross-portfolio .bg-img::after {
-top:0;
-right:0;
-width:100%;
-height:100%;
--webkit-transform:translateX(100%);
-transform:translateX(100%)
-}
-
-.containers {
-margin-right:auto;
-margin-left:auto;
-padding-left:15px;
-padding-right:15px
-}
-
-.cross-portfolio.modify .cross-top .logo {
-opacity:0
-}
-
-.cross-portfolio .content {
-width:100%;
-margin-left:0;
-padding:2em 0
-}
-
-.cross-portfolio .content p {
-font-size:14px
-}
-
-.cross-portfolio .title h1 {
-font-size:38px
-}
-
-.cross-portfolio .content h2 {
-font-size:28px
-}
-
-.cross-portfolio .content h3 {
-font-size:24px
-}
-
-.cross-portfolio .content h4 {
-font-size:18px
-}
-
-.menu-click li a {
-font-size:40px;
-line-height:68px
-}
 }
 
 #space-1 {
